@@ -1,0 +1,60 @@
+<mujoco model="unnamed_model">
+  <default>
+    <default class="/"/>
+  </default>
+  <worldbody>
+    <geom name="//unnamed_geom_0" class="/" type="plane" size="100 100 0.10000000000000001" pos="0 0 -10"/>
+    <body name="body0" pos="0 0 0">
+      <joint name="//unnamed_joint_0" class="/" type="free"/>
+      <geom name="//unnamed_geom_1" class="/" type="sphere" size="0.67728324809154694 0.67728324809154694 0.67728324809154694"/>
+      <body name="body1" pos="-0.8689737479612889 0 0">
+        <geom name="//unnamed_geom_2" class="/" type="sphere" size="0.19169049986974196 0.19169049986974196 0.19169049986974196"/>
+        <joint name="//unnamed_joint_1" class="/" type="hinge" axis="-1 0 0"/>
+        <body name="body4" pos="0 0 -1.1597509425383579">
+          <geom name="//unnamed_geom_3" class="/" type="sphere" size="0.96806044266861579 0.96806044266861579 0.96806044266861579"/>
+          <joint name="//unnamed_joint_2" class="/" type="hinge" axis="0 0 -1"/>
+        </body>
+        <body name="body5" pos="-0.61535078193579718 0 0">
+          <geom name="//unnamed_geom_4" class="/" type="sphere" size="0.42366028206605522 0.42366028206605522 0.42366028206605522"/>
+          <joint name="//unnamed_joint_3" class="/" type="ball" axis="-1 0 0"/>
+        </body>
+      </body>
+      <body name="body2" pos="0 -1.2587439144820518 0">
+        <geom name="//unnamed_geom_5" class="/" type="sphere" size="0.58146066639050498 0.58146066639050498 0.58146066639050498"/>
+        <joint name="//unnamed_joint_4" class="/" type="hinge" axis="0 -1 0"/>
+      </body>
+      <body name="body3" pos="0 1.2354878540623748 0">
+        <geom name="//unnamed_geom_6" class="/" type="sphere" size="0.55820460597082788 0.55820460597082788 0.55820460597082788"/>
+        <joint name="//unnamed_joint_5" class="/" type="ball" axis="0 1 0"/>
+        <body name="body9" pos="0 0 0.94575881065829159">
+          <geom name="//unnamed_geom_7" class="/" type="sphere" size="0.38755420468746371 0.38755420468746371 0.38755420468746371"/>
+          <joint name="//unnamed_joint_6" class="/" type="ball" axis="0 0 1"/>
+        </body>
+      </body>
+      <body name="body6" pos="0 0 -0.90405786730740401">
+        <geom name="//unnamed_geom_8" class="/" type="sphere" size="0.22677461921585709 0.22677461921585709 0.22677461921585709"/>
+        <joint name="//unnamed_joint_7" class="/" type="ball" axis="0 0 -1"/>
+        <body name="body7" pos="0 0.71257477354343757 0">
+          <geom name="//unnamed_geom_9" class="/" type="sphere" size="0.4858001543275805 0.4858001543275805 0.4858001543275805"/>
+          <joint name="//unnamed_joint_8" class="/" type="ball" axis="0 1 0"/>
+        </body>
+      </body>
+      <body name="body8" pos="1.6187389951652817 0 0">
+        <geom name="//unnamed_geom_10" class="/" type="sphere" size="0.94145574707373492 0.94145574707373492 0.94145574707373492"/>
+        <joint name="//unnamed_joint_9" class="/" type="ball" axis="1 0 0"/>
+      </body>
+    </body>
+  </worldbody>
+  <actuator>
+    <motor name="//unnamed_actuator_0" class="/" ctrllimited="true" ctrlrange="-1 1" joint="//unnamed_joint_0"/>
+    <motor name="//unnamed_actuator_1" class="/" ctrllimited="true" ctrlrange="-1 1" joint="//unnamed_joint_1"/>
+    <motor name="//unnamed_actuator_2" class="/" ctrllimited="true" ctrlrange="-1 1" joint="//unnamed_joint_2"/>
+    <motor name="//unnamed_actuator_3" class="/" ctrllimited="true" ctrlrange="-1 1" joint="//unnamed_joint_3"/>
+    <motor name="//unnamed_actuator_4" class="/" ctrllimited="true" ctrlrange="-1 1" joint="//unnamed_joint_4"/>
+    <motor name="//unnamed_actuator_5" class="/" ctrllimited="true" ctrlrange="-1 1" joint="//unnamed_joint_5"/>
+    <motor name="//unnamed_actuator_6" class="/" ctrllimited="true" ctrlrange="-1 1" joint="//unnamed_joint_6"/>
+    <motor name="//unnamed_actuator_7" class="/" ctrllimited="true" ctrlrange="-1 1" joint="//unnamed_joint_7"/>
+    <motor name="//unnamed_actuator_8" class="/" ctrllimited="true" ctrlrange="-1 1" joint="//unnamed_joint_8"/>
+    <motor name="//unnamed_actuator_9" class="/" ctrllimited="true" ctrlrange="-1 1" joint="//unnamed_joint_9"/>
+  </actuator>
+</mujoco>
